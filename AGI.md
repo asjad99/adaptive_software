@@ -1,6 +1,13 @@
 
 ### AGI 
 
+
+
+- [An Approximation of the Universal Intelligence Measure](https://www.deepmind.com/publications/an-approximation-of-the-universal-intelligence-measure)
+- [Towards an Automatic Turing Test: Learning to Evaluate Dialogue Responses]() 
+- [Building machines that learn and think like people]()
+
+
 Critiques of “Building machines that learn and think like people”
  Building machines that learn and think like people (Section 5-end, pg. 19-25)
 
