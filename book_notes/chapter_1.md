@@ -44,4 +44,16 @@
 
 
 
-**Body plans**
+**Body plans** (confusing analogies)
+
+- A body plan is just a wrapper that combines partially specified components. This is a kind of *combinator*: a thing that combines subparts together into a larger part. 
+
+- By comparing radio receiver design to biological processes, the text highlights the importance of modularity in good engineering.  Just as a well-organized and modular design is crucial for the function of a biological organism, it is also essential for the function and efficiency of an engineered system like a radio receiver.
+
+- A body plan is just a wrapper that combines partially specified components. This is a kind of *combinator*: a thing that combines subparts together into a larger part.
+
+- The phrase "sequence of locales" refers to the specific arrangement of components or subsystems within each radio receiver design. These are determined by the "engineering equivalent of a Hox complex," which is a reference to the Hox genes in biology. Hox genes are responsible for determining the body plan and organization of an organism's body parts.
+
+-  It is possible to create *combinator languages*, in which the components and the composite <u>all have the same interface specification.</u> In a combinator language, it is possible to build arbitrarily large composites from small numbers of mix-and-match components. 
+
+  
