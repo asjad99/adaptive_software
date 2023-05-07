@@ -47,13 +47,60 @@
 **Body plans** (confusing analogies)
 
 - A body plan is just a wrapper that combines partially specified components. This is a kind of *combinator*: a thing that combines subparts together into a larger part. 
-
 - By comparing radio receiver design to biological processes, the text highlights the importance of modularity in good engineering.  Just as a well-organized and modular design is crucial for the function of a biological organism, it is also essential for the function and efficiency of an engineered system like a radio receiver.
-
 - A body plan is just a wrapper that combines partially specified components. This is a kind of *combinator*: a thing that combines subparts together into a larger part.
-
 - The phrase "sequence of locales" refers to the specific arrangement of components or subsystems within each radio receiver design. These are determined by the "engineering equivalent of a Hox complex," which is a reference to the Hox genes in biology. Hox genes are responsible for determining the body plan and organization of an organism's body parts.
-
 -  It is possible to create *combinator languages*, in which the components and the composite <u>all have the same interface specification.</u> In a combinator language, it is possible to build arbitrarily large composites from small numbers of mix-and-match components. 
 
-  
+
+
+**1.3 Redundancy and degeneracy**
+
+
+
+One of the characteristics of biological systems is that they are redundant. Organs such as the liver and kidney are highly *redundant*: there is vastly more capacity than is necessary to do the job, so a person missing a kidney or part of a liver suffers no obvious incapacity. 
+
+Biological systems are also highly *degenerate*: there are usually many ways to satisfy a given requirement
+
+**1.4 Exploratory behavior**
+
+
+
+- generate and test is a metaphor for all of evolution.
+
+- The mechanisms of biological variation are random mutations:
+
+- modifications of the genetic instructions. Most mutations are neutral in that they do not directly affect fitness because of degeneracy in the systems. Natural selection is the test phase. It does not depend on the method of variation, and the method of variation does not anticipate the effect of selection.
+
+
+
+**1.5 The cost of flexibility**
+
+How do we measure cost of software systems?  
+
+	- requiring an entire system to be implemented in the most efficient possible way is counterproductive, preventing the flexibility for adapting to future needs
+	- The real cost of a system is the time spent by programmers— in designing, understanding, maintaining, modifying, and debugging the system
+
+- initial cost of building a system that has properties layers, redundancy, degeneracy, and exploratory behavior might be expensive but they are the  key ingredients in evolvable systems.
+- layered structure provides a way to have both efficiency and flexibility.
+
+
+
+**The problem with correctness**
+
+- In computer science we are taught that the “correctness” of software is paramount, and that correctness is to be achieved by establishing formal specification of components and systems of components and by providing proofs that the specifications of a combination of components are met by the specifications of the components and the pattern by which they are combined.19 We assert that this discipline makes systems more brittle. In fact, to make truly robust systems we must discard such a tight discipline.
+
+- The problem with requiring proofs is that it is usually harder to prove general properties of general mechanisms than it is to prove special properties of special mechanisms used in constrained circumstances. This encourages us to make our parts and combinations as special as possible so we can simplify our proofs. But the combination of tightly specialized parts is brittle—there is no room for variation
+- Even for safety-critical systems, such as autopilots, the restriction of applicability to situations for which the system is provably correct as specified may actually contribute to unnecessary failure. Indeed, we want an autopilot to make a good-faith attempt to safely fly an airplane that is damaged in a way not anticipated by the designer!
+
+
+
+
+
+---
+
+**Further Study:** 
+
+- What are functions 
+- works of The discovery of the existence of universal machines by Alan Turing [124], and the fact that the set of functions that can be computed by Turing machines is equivalent to both the set of functions representable in Alonzo Church's *λ* calculus [17, 18, 16] and the general recursive functions of Kurt Gödel [45] and Jacques Herbrand [55], ranks among the greatest intellectual achievements of the twentieth century.
+- **Possible Case Studies** that we can discuss: Boeing 737 MAX crash  and some code editor like sublime or Visual Studio 
